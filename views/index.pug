@@ -1,5 +1,74 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  #index-banner.parallax-container
+    .section.no-pad-bot
+      .container
+        h1.header.center.red-text.darken-1 #{title}
+        .row.center
+          h5.header.col.s12.light Bla Bla Bla
+        .row.center
+          a#download-button.btn-large.waves-effect.waves-light.teal.lighten-1(href='/contacto') Contacto
+    .parallax
+      img(src='http://res.cloudinary.com/hammock-software/image/upload/v1466950206/01_mtihgs.jpg', alt='Fondo de encabezado')
+  .container
+    .section
+      .row
+        .col.s12.m4
+          .icon-block
+            h2.center.brown-text
+              i.material-icons flash_on
+            h5.center BlAAAA
+            p.light Lorem Ipsum
+        .col.s12.m4
+          .icon-block
+            h2.center.brown-text
+              i.material-icons group
+            h5.center BLAAAA
+            p.light Lorem Ipsum
+        .col.s12.m4
+          .icon-block
+            h2.center.brown-text
+              i.material-icons settings
+            h5.center BLAAAA
+            p.light Lorem Ipsum
+  .parallax-container.valign-wrapper
+    .section.no-pad-bot
+      .container
+        .row.center
+          h2.header.col.s12.light Lorem Ipsum
+    .parallax
+      img(src='http://res.cloudinary.com/hammock-software/image/upload/v1466950206/01_mtihgs.jpg', alt='Fondo de Enmedio')
+  .container
+    .section
+      .row
+        .col.s12.center
+          h3 #[i.mdi-content-send.brown-text]
+          h4 Contacto
+          p.left-align.light Lorem Ipsum
+  .parallax-container.valign-wrapper
+    .section.no-pad-bot
+      .container
+        .row.center
+          h5.header.col.s12.light Lorem Ipsum
+    .parallax
+      img(src='http://res.cloudinary.com/hammock-software/image/upload/v1466950206/01_mtihgs.jpg', alt='Fotografía de footer')
+  footer.page-footer.teal
+    .container
+      .row
+        .col.l6.s12
+          h5.white-text Company Bio
+          p.grey-text.text-lighten-4 Lorem Ipsum
+        .col.l3.s12
+          h5.white-text Settings
+          ul
+            li #[a.white-text(href='#') Link 1]
+            li #[a.white-text(href='#') Link 2]
+        .col.l3.s12
+          h5.white-text Connect
+          ul
+            li #[a.white-text(href='#') Link 1]
+            li #[a.white-text(href='#') Link 2]
+    .footer-copyright
+      .container Made by
+        a.brown-text.text-lighten-3(href='mailto:luis.garcialuna@outlook.com') Iván García
