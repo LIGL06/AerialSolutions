@@ -4,71 +4,73 @@ block content
   #index-banner.parallax-container
     .section.no-pad-bot
       .container
-        h1.header.center.red-text.darken-1 #{title}
+        h1.header.center.indigo-text.darken-2 #{title}
         .row.center
-          h5.header.col.s12.light Bla Bla Bla
+          h5.header.col.s12.light Aerial Solutions México es una empresa tampiqueña dedicada a la filmación y fotografía aérea. ¡Costos bajos, beneficios altos!
         .row.center
           a#download-button.btn-large.waves-effect.waves-light.teal.lighten-1(href='/contacto') Contacto
     .parallax
-      img(src='http://res.cloudinary.com/hammock-software/image/upload/v1466950206/01_mtihgs.jpg', alt='Fondo de encabezado')
+      video.responsive-video(autoplay,muted,loop,height='720')
+        source(src='/images/min.mp4', type='video/mp4')
+        source(src='/images/min.webm', type='video/webm')
   .container
     .section
       .row
         .col.s12.m4
           .icon-block
-            h2.center.brown-text
-              i.material-icons flash_on
-            h5.center BlAAAA
-            p.light Lorem Ipsum
+            h2.center.indigo-text.darken-2
+              i.material-icons hd
+            h5.center Video en HD
+            p.light Captura todos los momentos mágicos del día en alta definición
         .col.s12.m4
           .icon-block
-            h2.center.brown-text
-              i.material-icons group
-            h5.center BLAAAA
-            p.light Lorem Ipsum
+            h2.center.indigo-text.darken-2
+              i.material-icons settings_remote
+            h5.center Control remoto
+            p.light Pilotos especializados en control Aero con más de 20 horas de vuelo.
         .col.s12.m4
           .icon-block
-            h2.center.brown-text
-              i.material-icons settings
-            h5.center BLAAAA
-            p.light Lorem Ipsum
+            h2.center.indigo-text.darken-2
+              i.material-icons settings_brightness
+            h5.center Balance de blancos
+            p.light El mejor detalle de manera automática en cualquier momento del día.
   .parallax-container.valign-wrapper
     .section.no-pad-bot
       .container
         .row.center
-          h2.header.col.s12.light Lorem Ipsum
+          h2.header.col.s12.light La mejor experiencia
     .parallax
-      img(src='http://res.cloudinary.com/hammock-software/image/upload/v1466950206/01_mtihgs.jpg', alt='Fondo de Enmedio')
+      img(src='/images/02.jpg', alt='Fondo de Enmedio')
   .container
     .section
       .row
         .col.s12.center
-          h3 #[i.mdi-content-send.brown-text]
-          h4 Contacto
-          p.left-align.light Lorem Ipsum
+          h3 #[i.mdi-content-send.indigo-text.darken-2]
+          h4 Acerca de
+          p.center.light Contamos con el mejor equipo para filmación y fotografía aérea. Nuestro DJI cuenta con materiales que lo hacen de los más estables en el mercado actualmente. Compruébalo tu mismo.
+          i.material-icons navigation
   .parallax-container.valign-wrapper
     .section.no-pad-bot
       .container
         .row.center
-          h5.header.col.s12.light Lorem Ipsum
+          h5.header.col.s12.light Los mejores precios
     .parallax
-      img(src='http://res.cloudinary.com/hammock-software/image/upload/v1466950206/01_mtihgs.jpg', alt='Fotografía de footer')
+      img(src='/images/03.jpg', alt='Fotografía de footer')
   footer.page-footer.teal
     .container
       .row
         .col.l6.s12
           h5.white-text Company Bio
-          p.grey-text.text-lighten-4 Lorem Ipsum
+          p.grey-text.text-lighten-4 Aerial Solutions México es una empresa tampiqueña dedicada a la filmación y fotografía aérea. ¡Costos bajos, beneficios altos!
         .col.l3.s12
-          h5.white-text Settings
+          h5.white-text Contacto
           ul
-            li #[a.white-text(href='#') Link 1]
-            li #[a.white-text(href='#') Link 2]
+            li #[a.white-text(href='mailto:msantoyogtz@gmail.com') mstanyogtz@gmail.com]
+            li #[a.white-text 833.245.5219]
         .col.l3.s12
-          h5.white-text Connect
+          h5.white-text Redes Sociales
           ul
-            li #[a.white-text(href='#') Link 1]
-            li #[a.white-text(href='#') Link 2]
+            li #[a.white-text(href='https://www.facebook.com/Aerial-Solutions-México-991793190888796') Facebook]
+            li #[a.white-text(href='https://www.youtube.com/channel/UCICNRUfZn3G8gxTZUDFTajw') Youtube]
     .footer-copyright
-      .container Made by
-        a.brown-text.text-lighten-3(href='mailto:luis.garcialuna@outlook.com') Iván García
+      .container Made by #[a.indigo-text.darken-2.text-lighten-3(href='mailto:ivan@uvmarketing.com.mx') UV Marketing]
